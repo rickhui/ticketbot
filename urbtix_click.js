@@ -32,6 +32,6 @@ async function refresh(url) {
   console.log("Successfully get in www.urbtix.hk");
 }
 
-for (var i = 1; i <= 5; i++){
+for (var i = 1; i <= 8; i++){
   refresh('http://www.urbtix.hk/');
 }
